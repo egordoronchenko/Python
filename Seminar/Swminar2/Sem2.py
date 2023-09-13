@@ -116,3 +116,6 @@ for i in range(n):
     else: continue 
 print(f"Арбуз №{maxWatermelon} весом {max}кг для себя, арбуз №{minWatermelon} весом {min} для тещи")
 """
+
+print(*range(0,8))
+
