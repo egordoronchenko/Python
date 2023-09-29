@@ -29,13 +29,14 @@
 4 -> 1 2 3 4
 9'''
 
+from random import randint
 file = open("text-files/vvodnie.txt")
 a = int(file.read(1))
 file.close()
 
-n = 5 # кустов
-from random import randint
-list_1 = list(randint(1, 5) for i in range(int(input('Введите кол-во кустов: '))))
+
+n = int(input('Введите кол-во кустов: '))
+list_1 = list(randint(1, n) for i in range(n))
 print(list_1)
 
 res = 0
