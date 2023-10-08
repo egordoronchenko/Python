@@ -21,7 +21,7 @@ def copy_data():
         print("Файл пусто!")
     else:
         number_row = input(f'Введите номер строки '
-                           f'от 1 до {count_rows1}, если требуется скопировать все строки "Все": ')
+                           f'от 1 до {count_rows1}, если требуется скопировать все строки напишите "Все": ')
 
         if number_row.upper() == all:
             count = 1
